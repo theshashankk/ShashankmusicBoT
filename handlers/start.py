@@ -11,25 +11,24 @@ async def start(_, message: Message):
 ✨ I ᴀᴍ sᴘᴇᴄɪᴀʟ ᴍᴜsɪᴄ ʙᴏᴛ. 
 🥳 I ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ😉
 ⚜️ Usᴇ ᴛʜᴇsᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ. 👇""",
- NUBISHIKA_IMG = "https://telegra.ph/file/01f9bbd70216678ed9a5a.jpg"
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/theshashankk/ShashankmusicBoT"
+                        "⚒ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/theshashankk/ShashankmusicBoT"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💻 Nᴜʙ ᴄʀᴇᴀᴛᴏʀ", url="https://t.me/Theshashank"
+                        "👩💻 Cʀᴇᴀᴛᴏʀ", url="https://t.me/hellbot_official_chat"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʀᴇᴀᴛᴏʀ ᴋɪ ᴊᴀɴᴇᴍᴏɴ❤️", url="https://t.me/cutie1145"
+                        "❤️Cʀᴇᴀᴛᴏʀ ᴋɪ ᴊᴀɴᴇᴍᴏɴ❤️", url="https://t.me/hellbot_official"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎵Aᴅᴅ ʙᴏᴛ ɪɴ ᴜʀ ɢʀᴏᴜᴘ🎵", url="t.me/Theshashank_musicRobot?startgroup=true"
+                        "❌ Close ❌", callback_data="close"
                     )
                 ]
             ]
