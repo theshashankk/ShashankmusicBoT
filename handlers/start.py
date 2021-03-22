@@ -28,7 +28,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "❌ Cʟᴏsᴇ ❌", callback_data="close"
+                        "Aᴅᴅ ʙᴏᴛ ɪɴ ᴜʀ ɢʀᴏᴜᴘ🎵", url="t.me/Theshashank_musicRobot?startgroup=true"
                     )
                 ]
             ]
