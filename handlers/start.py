@@ -20,15 +20,15 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👩💻 Cʀᴇᴀᴛᴏʀ", url="https://t.me/hellbot_official_chat"
+                        "👩💻 Cʀᴇᴀᴛᴏʀ", url="https://t.me/Theshashank"
                     ),
                     InlineKeyboardButton(
-                        "❤️Cʀᴇᴀᴛᴏʀ ᴋɪ ᴊᴀɴᴇᴍᴏɴ❤️", url="https://t.me/hellbot_official"
+                        "❤️Cʀᴇᴀᴛᴏʀ ᴋɪ ᴊᴀɴᴇᴍᴏɴ❤️", url="https://t.me/cutie1145"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "❌ Close ❌", callback_data="close"
+                        "❌ Cʟᴏsᴇ ❌", callback_data="close"
                     )
                 ]
             ]
