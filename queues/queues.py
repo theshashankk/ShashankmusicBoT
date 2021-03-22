@@ -1,5 +1,5 @@
 """
-To prevent conflict with built-in modules, using "queues", the Greek word for "queue".
+Tᴏ ᴘʀᴇᴠᴇɴᴛ ᴄᴏɴғʟɪᴄᴛ ᴡɪᴛʜ ʙᴜɪʟᴛ-ɪɴ ᴍᴏᴅᴜʟᴇs, ᴜsɪɴɢ "ǫᴜᴇᴜᴇs", Tʜᴇ Gʀᴇᴇᴋ Wᴏʀᴅ Fᴏʀ "Qᴜᴇᴜᴇ".
 """
 from queue import Queue, Empty
 from typing import Dict, Union
