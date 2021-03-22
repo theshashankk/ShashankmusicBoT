@@ -7,28 +7,28 @@ from helpers.filters import command, other_filters, other_filters2
 @Client.on_message(command("start") & other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""🙃 Hi {message.from_user.first_name}!
-✨ I am Hêllẞø† Music Player. 
-🥳 I can play music in your Telegram Group's Voice Chat😉
-⚜️ Use these buttons below to know more. 👇""",
+        f"""🙃 Hᴇʏ Nᴜʙ {message.from_user.first_name}!
+✨ I ᴀᴍ sᴘᴇᴄɪᴀʟ ᴍᴜsɪᴄ ʙᴏᴛ. 
+🥳 I ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ😉
+⚜️ Usᴇ ᴛʜᴇsᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ. 👇""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://github.com/TheVaders/MusicBot"
+                        "⚒ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/theshashankk/ShashankmusicBoT"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/hellbot_official_chat"
+                        "💻 Nᴜʙ ᴄʀᴇᴀᴛᴏʀ", url="https://t.me/Theshashank"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/hellbot_official"
+                        "ᴄʀᴇᴀᴛᴏʀ ᴋɪ ᴊᴀɴᴇᴍᴏɴ❤️", url="https://t.me/cutie1145"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "❌ Close ❌", callback_data="close"
+                        "❌ Cʟᴏsᴇ ❌", callback_data="close"
                     )
                 ]
             ]
@@ -39,15 +39,15 @@ async def start(_, message: Message):
 @Client.on_message(command("start") & other_filters)
 async def start2(_, message: Message):
     await message.reply_text(
-        "**Hêllẞø†:** I'm Working!!!\nUse me in Inline to search for a YouTube Video/Music. \n**Happy Streaming**",
+        "**Nᴜʙ Isʜɪᴋᴀ:** I'M Wᴏʀᴋɪɴɢ!!!\nUsᴇ ᴍᴇ ɪɴ ɪɴʟɪɴᴇ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ᴀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ/Mᴜsɪᴄ. \n**Hᴀᴘᴘʏ sᴛʀᴇᴀᴍɪɴɢ**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎶 Search 🎶", switch_inline_query_current_chat=""
+                        "🎶 Sᴇᴀʀᴄʜ 🎶", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "❌ Close ❌", callback_data="close"
+                        "❌ Cʟᴏsᴇ ❌", callback_data="close"
                     )
                 ]
             ]
