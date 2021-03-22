@@ -16,7 +16,7 @@ async def inline(client: Client, query: InlineQuery):
         await client.answer_inline_query(
             query.id,
             results=answers,
-            switch_pm_text="Type a YouTube video name...",
+            switch_pm_text="Tʏᴘᴇ ᴀ Yᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ ɴᴀᴍᴇ...",
             switch_pm_parameter="help",
             cache_time=0
         )
@@ -26,10 +26,10 @@ async def inline(client: Client, query: InlineQuery):
         for result in search.result()["result"]:
             answers.append(
                 InlineQueryResultArticle(
-                    title=result["title"],
-                    description="{}, {} views.".format(
-                        result["duration"],
-                        result["viewCount"]["short"]
+                    title=result["Tɪᴛʟᴇ"],
+                    description="{}, {} ᴠɪᴇᴡs.".format(
+                        result["Dᴜʀᴀᴛɪᴏɴ"],
+                        result["VɪᴇᴡCᴏᴜɴᴛ"]["short"]
                     ),
                     input_message_content=InputTextMessageContent(
                         "https://www.youtube.com/watch?v={}".format(
@@ -49,6 +49,6 @@ async def inline(client: Client, query: InlineQuery):
             await query.answer(
                 results=answers,
                 cache_time=0,
-                switch_pm_text="Error: Search timed out",
+                switch_pm_text="Eʀʀᴏʀ: sᴇᴀʀᴄʜ ᴛɪᴍᴇᴅ ᴏᴜᴛ",
                 switch_pm_parameter="",
             )
